@@ -19,6 +19,7 @@
 }
 
 .messages-container {
+  width: 90%;
   flex: 1;
   padding: 20px;
   overflow-y: auto;
