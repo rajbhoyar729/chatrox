@@ -6,13 +6,13 @@ const  pub=new Redis({
   host :'redis-19716.c56.east-us.azure.redns.redis-cloud.com',
   port:19716,
   username:'default',
-  password:'LKuneaP42T9yd477S1v28zRWRQYYeDGD'
+  password: process.env.Redispassword
 });
 const sub=new Redis({
     host :'redis-19716.c56.east-us.azure.redns.redis-cloud.com',
     port:19716,
     username:'default',
-    password:'LKuneaP42T9yd477S1v28zRWRQYYeDGD'
+    password: process.env.Redispassword
   });
 
 class SocketService {
